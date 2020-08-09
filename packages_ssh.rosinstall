@@ -62,7 +62,7 @@
 - git:
     local-name: src/sim/rotors_simulator/
     uri: git@github.com:unr-arl/rotors_simulator.git
-    version: dev/gbplanner_ros
+    version: dev/mbplanner_ros
 - git:
     local-name: src/sim/lidar_simulator/
     uri: git@github.com:unr-arl/lidar_simulator.git
