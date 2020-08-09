@@ -1,22 +1,25 @@
 # mbplanner_ws
-This workspace includes relevant packages to run with the [mbplanner_ros](https://github.com/MihirDharmadhikari/mbplanner_ros.git).  
+ROS workspace for mbplanner_ros package  
+
+This workspace includes relevant packages to run with the [mbplanner_ros](https://github.com/unr-arl/mbplanner_ros.git).  
 
 ## Clone the package
 ```
-git clone https://github.com/MihirDharmadhikari/mbplanner_ws.git
+git clone https://github.com/unr-arl/mbplanner_ws.git
 ```  
 
 ## Setup the workspace
 ### Ubuntu 16.04 with ROS Kinetic:  
-Use the ```master``` branch  
+Use the ```premerge_check_kinetic``` branch [!!!! ONLY FOR TESTING. REVERT TO master BEFORE MERGING !!!]
 ```bash
 cd mbplanner_ws
+git checkout premerge_check_kinetic ##!!!! ONLY FOR TESTING. REVERT TO master BEFORE MERGING !!!
 ```
 ### Ubuntu 18.04 with ROS Melodic:  
-Use the ```melodic-devel``` branch  
+Use the ```premerge_check_melodic``` branch  [!!!! ONLY FOR TESTING. REVERT TO melodic-devel BEFORE MERGING !!!]
 ```bash
 cd mbplanner_ws
-git checkout melodic-devel
+git checkout premerge_check_melodic  ##!!!! ONLY FOR TESTING. REVERT TO melodic-devel BEFORE MERGING !!!
 ```
 ### Clone required packages
 ```bash
@@ -33,5 +36,3 @@ wstool update
 catkin config -DCMAKE_BUILD_TYPE=Release
 catkin build
 ````
-
-The whole workspace has been tested in Ubuntu 16.04 and ROS Kinetic. We will test and update further with respect to Ubuntu18 and ROS-Melodic.
