@@ -53,5 +53,11 @@ qtcreator-*
 # Emacs
 .#*
 
+# VSCode
+.vscode/
+
+# rosinstall
+.rosinstall.bak
+
 # Catkin custom files
 CATKIN_IGNORE

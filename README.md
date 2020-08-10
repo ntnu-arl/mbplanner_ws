@@ -10,16 +10,15 @@ git clone https://github.com/unr-arl/mbplanner_ws.git
 
 ## Setup the workspace
 ### Ubuntu 16.04 with ROS Kinetic:  
-Use the ```premerge_check_kinetic``` branch [!!!! ONLY FOR TESTING. REVERT TO master BEFORE MERGING !!!]
+Use the ```master``` branch
 ```bash
 cd mbplanner_ws
-git checkout premerge_check_kinetic ##!!!! ONLY FOR TESTING. REVERT TO master BEFORE MERGING !!!
 ```
 ### Ubuntu 18.04 with ROS Melodic:  
-Use the ```premerge_check_melodic``` branch  [!!!! ONLY FOR TESTING. REVERT TO melodic-devel BEFORE MERGING !!!]
+Use the ```melodic-devel``` branch  
 ```bash
 cd mbplanner_ws
-git checkout premerge_check_melodic  ##!!!! ONLY FOR TESTING. REVERT TO melodic-devel BEFORE MERGING !!!
+git checkout melodic-devel
 ```
 ### Clone required packages
 ```bash

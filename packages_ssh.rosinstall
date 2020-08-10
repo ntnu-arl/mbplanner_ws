@@ -50,7 +50,7 @@
 - git:
     local-name: src/exploration/mbplanner_ros/
     uri: git@github.com:unr-arl/mbplanner_ros.git
-    version: premerge_check # !!! SWITCH TO master BEFORE MERGING !!!
+    version: master
 - git:
     local-name: src/exploration/pci_mav/
     uri: git@github.com:unr-arl/pci_mav.git
