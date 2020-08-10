@@ -21,6 +21,12 @@ devel_isolated/
 /cfg/cpp/
 /cfg/*.py
 
+/src/*
+
+.rosinstall
+.catkin_tools/
+
+
 # Ignore generated docs
 *.dox
 *.wikidoc
@@ -46,6 +52,12 @@ qtcreator-*
 
 # Emacs
 .#*
+
+# VSCode
+.vscode/
+
+# rosinstall
+.rosinstall.bak
 
 # Catkin custom files
 CATKIN_IGNORE
