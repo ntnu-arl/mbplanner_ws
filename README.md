@@ -10,10 +10,17 @@ git clone https://github.com/unr-arl/mbplanner_ws.git
 
 ## Setup the workspace
 ### Ubuntu 16.04 with ROS Kinetic:  
+#### If gazebo 7.x or 8.x is used:
 Use the ```master``` branch
 ```bash
 cd mbplanner_ws
 ```
+#### If gazebo 9.x is used:
+Use the ```melodic-devel``` branch  
+```bash
+cd mbplanner_ws
+git checkout melodic-devel
+```  
 ### Ubuntu 18.04 with ROS Melodic:  
 Use the ```melodic-devel``` branch  
 ```bash
